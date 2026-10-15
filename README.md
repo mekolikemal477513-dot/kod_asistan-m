@@ -12,13 +12,6 @@
 #### 5. Su seviyesi **50'yi geçerse**: Döngüyü kır.
 #### 6. Geçen süreyi (saati) ve kritik su seviyesini ekrana yazdır.
 #### 7. Bitir.
-## Kitap 41. sayfa 
-### Kullanıcı Kayıt Akışı: Ad ve Soyadı Birleştirme
-
-```mermaid
-graph TD
-    A([BAŞLANGIÇ]) --> B[/AD GİRİŞİ/]
-    B --> C[/SOYAD GİRİŞİ/]
-    C --> D[AD VE SOYADI BİRLEŞTİRME]
-    D --> E[/PROFİL KİMLİĞİ OLUŞTURMA VE SAKLAMA/]
-    E --> F([BİTİŞ])
+## Programalama Temelleri Kitabı Ödevler
+### 46.Sayfa Kayıt Akış Diyagramı
+![Kod Akış Diyagramı](./kod-akis-diyagrami.png)
