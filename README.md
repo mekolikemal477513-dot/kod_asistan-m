@@ -14,4 +14,9 @@
 #### 7. Bitir.
 ## Programalama Temelleri Kitabı Ödevler
 ### 46.Sayfa Kayıt Akış Diyagramı
-![Kod Akış Diyagramı](./kod-akis-diyagrami.png)
+```mermaid
+graph TD
+    A([Başla]) --> B[/Kullanıcı Adı/]
+    B --> C[Hoş geldiniz mesajı = "Hoş geldiniz" + Kullanıcı Adı]
+    C --> D[/Hoş geldiniz mesajını ekrana yaz/]
+    D --> E([Bitir])
