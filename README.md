@@ -17,6 +17,6 @@
 ```mermaid
 graph TD
     A([Başla]) --> B[/Kullanıcı Adı/]
-    B --> C[Hoş geldiniz mesajı = "Hoş geldiniz" + Kullanıcı Adı]
+    B --> C[Hoş geldiniz mesajı = Hoş geldiniz + Kullanıcı Adı]
     C --> D[/Hoş geldiniz mesajını ekrana yaz/]
     D --> E([Bitir])
